@@ -3,6 +3,8 @@
   padding: 0;  
 }
 
+/* Barra Lateral */
+
 #sidebar {
     position: fixed;
     height: 100%;
@@ -22,6 +24,8 @@
     cursor: pointer;
     width: auto;
     max-height: 130px;
+    border-radius: 50%;
+    border: 2px solid black;
  }
 
 #sidebar ul li {
