@@ -1,9 +1,19 @@
-* {
-  margin: 0;
-  padding: 0;  
+/* Maquetado página */
+
+#pagppal{
+    margin-left: 210px;
+}
+
+.lista{
+    justify-content: last baseline;
 }
 
 /* Barra Lateral */
+
+*{
+  margin: 0;
+  padding: 0;  
+}
 
 #sidebar {
     position: fixed;
