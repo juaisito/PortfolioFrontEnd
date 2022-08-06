@@ -1,5 +1,16 @@
 /* Maquetado página */
 
+header {
+    height: 50px;
+    background-color: rgb(49, 98, 150); 
+}
+
+footer{
+    height: 50px;
+    background-color: rgb(49, 98, 150); 
+}
+
+
 #pagppal{
     margin-left: 210px;
 }
