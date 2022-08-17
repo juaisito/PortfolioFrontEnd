@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "@popperjs/core": "^2.11.5"
-  }
+  },
+  "name": "prueba",
+  "description": "prueba servidor",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juaisito/PortfolioFrontEnd.git"
+  },
+  "author": "Juan Traini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juaisito/PortfolioFrontEnd/issues"
+  },
+  "homepage": "https://github.com/juaisito/PortfolioFrontEnd#readme"
 }

@@ -17,20 +17,20 @@
 
     <!--Barra Lateral-->
 
-    <div id= "sidebar" class="active"> 
+    <aside id= "sidebar" class="active"> 
       <div class="menulateral">
-        <span>&#9776</span>
       </div>
       <div>
-         <ul>
-           <li><img src="img/yo.jpg" alt="Foto" class="logo"></li>
-           <li>Sobre Mí</li>
-           <li>Estudios</li>
-           <li>Experiencia Laboral</li>
-           <li>Contacto</li>
-         </ul>
+         <img src="img/yo.jpg" alt="Foto" class="logo"></li>
+           <nav class="nav flex-column">
+            <a class="nav-link active" aria-current="page" href="sobremi.html">Sobre Mí</a>
+            <a class="nav-link" href="#">Estudios</a>
+            <a class="nav-link" href="#">Experiencia Laboral</a>
+            <a class="nav-link disabled">Contacto</a>
+          </nav>
+      
        </div>
-    </div>
+    </aside>
 
     <!--Maquetado pagina-->
 
@@ -42,56 +42,82 @@
       
       <br>
 
-      <div id="sobre_mi">
+      <section id="sobre_mi">
         <h2>Sobre mí</h2>
 
         <br>
 
         <p>Me llamo <b>Juan Nicolas Traini</b>, curso los estudios del Profesorado de Filosofía en el instituto Padre Elizalde.</p>
 
-      </div>
+      </section>
 
       <br>
 
-      <div id="estudios">
+      <section id="estudios">
         <h2>Estudios</h2>
 
         <br>
 
-        <ul class="lista">
-          <li>Secundario en el Instituto Nuestra Señora de Fátima</li>
-          <li>Profesorado de Filosofía en el instituto Padre Elizalde</li>
-          <li>Curso de reparación de PC</li>
-          <li>Curso "CS50's Introduction to Computer Science"</li>
-        </ul>
-
-      </div>
+        <table class="container-fluid tabla">
+          <thead >
+            <tr>
+              <th>Estudios</th>
+              <th>Año comienzo</th>
+              <th>Año finalización</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Bachiller en Humanidades y Ciencia Sociales en el Instituto Nuestra Señora de Fátima</td>
+              <td>2007</td>
+              <td>2010</td>
+            </tr>
+            <tr>
+              <td>Profesorado de Filosofía en el instituto Padre Elizalde/td>
+              <td>2014</td>
+              <td>En curso</td>
+            </tr>
+            <tr>
+              <td>Curso de reparación de PC</td>
+              <td>2016</td>
+              <td>2016</td>
+            </tr>
+            <tr>
+              <td>Curso "CS50's Introduction to Computer Science"</td>
+              <td>2021</td>
+              <td>No finalizado</td>
+            </tr>
+          </tbody>
+        </table>
+    
+      </section>
 
       <br>
 
-      <div id="experiencia">
+      <section id="experiencia">
         <h2>Experiencia Laboral</h2>
 
         <br>
 
         <ul class="lista">
-          <li>American Broker Asesosres de Seguros</li>
-          <li>Cloud Computación</li>
+          <li>Reparto en Pizería Il Raffa</li>
+          <li>Cloud Computación - reparación de PC</li>
           <li>Participación en la traducción al español de "Tales of Monkey Island"</li>
+          <li>American Broker Asesosres de Seguros - Administrativo comercial</li>
         </ul>
 
-      </div>
+      </section>
 
       <br>
 
-      <div id="contacto">
+      <section id="contacto">
         <h2>Contacto</h2>
 
         <br>
 
         <p>Datos de contacto</p>
         <br>
-      </div>
+      </section>
 
 
     </div>

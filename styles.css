@@ -36,6 +36,8 @@ footer{
     background-color:cornflowerblue ;
     left: -200px;
     transition: all 500ms linear;
+
+
 }
 
 #sidebar.active{
@@ -44,7 +46,7 @@ footer{
 
 .logo {
     display: block;
-    margin: 0 auto;
+    margin: 3px auto;
     cursor: pointer;
     width: auto;
     max-height: 130px;
@@ -52,7 +54,7 @@ footer{
     border: 2px solid black;
  }
 
-#sidebar ul li {
+#sidebar nav {
     color:rgb(255, 255, 255);
     text-decoration: solid;
     text-align: center;
@@ -79,6 +81,20 @@ footer{
     
 }
 
+.tabla td {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.tabla th {
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
+    font-size: large;
+    color: whitesmoke;
+    background-color: grey;
+}
 
 
 
