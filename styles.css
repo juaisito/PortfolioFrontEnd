@@ -96,6 +96,10 @@ footer{
     background-color: grey;
 }
 
+a:link, a:visited, a:active  {
+    text-decoration: none;
+}
+
 
 
 
