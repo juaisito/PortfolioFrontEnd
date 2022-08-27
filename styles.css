@@ -33,11 +33,7 @@ footer{
     position: fixed;
     height: 100%;
     width: 200px;
-    background-color:cornflowerblue ;
-    left: -200px;
-    transition: all 500ms linear;
-
-
+    background-color:rgb(16, 44, 99);
 }
 
 #sidebar.active{
@@ -51,7 +47,7 @@ footer{
     width: auto;
     max-height: 130px;
     border-radius: 50%;
-    border: 2px solid black;
+    border: 2px solid whitesmoke;
  }
 
 #sidebar nav {
@@ -60,7 +56,8 @@ footer{
     text-align: center;
     padding: 15px 10px;
     list-style: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
 }
 
 #sidebar .menulateral {
@@ -98,6 +95,15 @@ footer{
 
 a:link, a:visited, a:active  {
     text-decoration: none;
+}
+
+nav {
+    text-decoration: none;
+}
+
+#title {
+    color: darkslateblue;
+    font-weight: bold;
 }
 
 
